@@ -24,24 +24,7 @@ img {
 <img src="school.jpg" width="100" height="90">
   <h3 class='byline'> School:IT Resource learning </h3>
   <h2 > Home </h2>
-<script>  
-function validateform(){  
-var name=document.myform.name.value; 
-var name=document.myform.English.value;
-var name=document.myform.Address.value;
-var password=document.myform.password.value;  
-if (name==null || name==""){  
-  alert("Information can't be blank");  
-  return false;  
-}else if(password.length<6){  
-  alert("Password must be at least 6 characters long.");  
-  return false;  
-  }else if(isNaN(password) || isNaN("")){
-      alert("Please enter number");
-      return false;
-  }
-} 
-</script>  
+<script src="1.js"></script>
 <body>  
 <form name="myform" method="post" action="mailto:username@hotmail.com" onsubmit="return validateform()" >  
 Pinyin name: <input type="text" name="name"><br/>  
